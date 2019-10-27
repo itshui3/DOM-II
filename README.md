@@ -54,9 +54,10 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
-* [ ] Nest two similar events somewhere in the site and prevent the event propagation properly
+* [done] Nest two similar events somewhere in the site and prevent the event propagation properly
+// it seems like "click" only applies on the specific element targetted //// and will protect a parent from having same event applied
 // what's an event, and how does one nest it within a site? Where would this syntax take /////// place? Which languages would it involve? 
-* [ ] Stop the navigation from items from refreshing the page by using `preventDefault()`
+* [Done] Stop the navigation from items from refreshing the page by using `preventDefault()`
 // Is this referring only to the home button refreshing backto home? Or is there a refresh process that I'm not aware of going on whenever a[or certain] nav items are being used? 
 Sounds like there's something called event propagation, and that it needs to be stopped at least some of the time
 ## Stretch Task:
